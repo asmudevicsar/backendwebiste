@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contactenoss",
+  "info": {
+    "singularName": "contactenos",
+    "pluralName": "contactenoss",
+    "displayName": "Contactenos"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Imagen_de_Fondo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

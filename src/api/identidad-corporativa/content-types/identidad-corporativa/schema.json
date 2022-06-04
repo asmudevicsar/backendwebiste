@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "identidad_corporativas",
+  "info": {
+    "singularName": "identidad-corporativa",
+    "pluralName": "identidad-corporativas",
+    "displayName": "Identidad Corporativa"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Descripcion": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "mensajes_contactanoss",
+  "info": {
+    "singularName": "mensajes-contactanos",
+    "pluralName": "mensajes-contactanoss",
+    "displayName": "Mensajes Contactanos"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Mensaje_Pagina_Principal": {
+      "type": "text",
+      "required": false
+    },
+    "Mensaje_Pagina_Contactenos": {
+      "type": "text"
+    }
+  }
+}

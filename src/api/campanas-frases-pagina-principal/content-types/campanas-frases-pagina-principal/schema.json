@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "campanas_frases_pagina_principals",
+  "info": {
+    "singularName": "campanas-frases-pagina-principal",
+    "pluralName": "campanas-frases-pagina-principals",
+    "displayName": "Campañas/Frases Pagina Principal"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Imagen_de_fondo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "Imagen_Izquierda": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Texto_Descripcion": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "categorias_de_eventos_noticias",
+  "info": {
+    "singularName": "categoria-de-evento-noticia",
+    "pluralName": "categorias-de-eventos-noticias",
+    "displayName": "Categorias de EventosNoticias/Comunicados de Prensa",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Nombre_de_Categoria": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

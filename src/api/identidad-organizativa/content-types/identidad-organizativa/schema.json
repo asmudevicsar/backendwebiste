@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "identidad_organizativas",
+  "info": {
+    "singularName": "identidad-organizativa",
+    "pluralName": "identidad-organizativas",
+    "displayName": "Identidad Organizativa"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Descripcion": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

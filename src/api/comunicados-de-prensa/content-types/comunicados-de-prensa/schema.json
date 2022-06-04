@@ -1,0 +1,51 @@
+{
+  "kind": "collectionType",
+  "collectionName": "comunicados_de_prensas",
+  "info": {
+    "singularName": "comunicados-de-prensa",
+    "pluralName": "comunicados-de-prensas",
+    "displayName": "Comunicados de prensa"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Nombre": {
+      "type": "string",
+      "required": true
+    },
+    "Descripcion": {
+      "type": "richtext",
+      "required": true
+    },
+    "Galeria_de_imagenes": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "Categoria_Comunicado": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::categoria-de-evento-noticia.categoria-de-evento-noticia"
+    },
+    "Imagen_Principal": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Fecha": {
+      "type": "date"
+    }
+  }
+}

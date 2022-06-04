@@ -1,0 +1,144 @@
+{
+  "kind": "collectionType",
+  "collectionName": "quienes_somoss",
+  "info": {
+    "singularName": "quienes-somos",
+    "pluralName": "quienes-somoss",
+    "displayName": "Quienes Somos",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Origen": {
+      "type": "text"
+    },
+    "Nuestra_Historia": {
+      "type": "text"
+    },
+    "Quienes_Somos": {
+      "type": "text"
+    },
+    "Mision": {
+      "type": "text"
+    },
+    "Vision": {
+      "type": "text"
+    },
+    "Objetivos": {
+      "type": "richtext"
+    },
+    "Titulo_QuienesSomos_Pagina_Principal": {
+      "type": "string"
+    },
+    "Boton_QuienesSomos_Pagina_Principal": {
+      "type": "string"
+    },
+    "Imagen_Pagina_Principal": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Titulo_Nuestra_Historia_Pagina_Quienes_Somos": {
+      "type": "string"
+    },
+    "Fecha_Creacion_Asociacion": {
+      "type": "date"
+    },
+    "Titulo_Origen_Pagina_Quienes_Somos": {
+      "type": "string"
+    },
+    "Imagen_Nuestra_Historia": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Imagen_Origen": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Titulo_QuienesSomos_Pagina_Quienes_Somos": {
+      "type": "string"
+    },
+    "Mision_Imagen": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Vision_Imagen": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Objetivos_Imagen": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Identidad_Corporativa_Titulo": {
+      "type": "string"
+    },
+    "Imagen_Identidad_Corporativa": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Identidad_Organizativa_Titulo": {
+      "type": "string"
+    },
+    "Identidad_Organizativa_Imagen": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

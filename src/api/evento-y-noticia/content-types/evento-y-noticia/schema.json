@@ -1,0 +1,54 @@
+{
+  "kind": "collectionType",
+  "collectionName": "eventos_y_noticias",
+  "info": {
+    "singularName": "evento-y-noticia",
+    "pluralName": "eventos-y-noticias",
+    "displayName": "Eventos y Noticias",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Nombre": {
+      "type": "string",
+      "required": true
+    },
+    "Descripcion": {
+      "type": "richtext",
+      "required": true
+    },
+    "Galeria_de_imagenes": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Categoria_Evento_Noticia": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::categoria-de-evento-noticia.categoria-de-evento-noticia"
+    },
+    "Imagen_Principal": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Fecha": {
+      "type": "date"
+    }
+  }
+}

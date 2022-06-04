@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "categorias_de_proyectos",
+  "info": {
+    "singularName": "categoria-de-proyecto",
+    "pluralName": "categorias-de-proyectos",
+    "displayName": "Categorias de Proyectos",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Nombre_de_Categoria": {
+      "type": "string",
+      "required": true
+    },
+    "Imagen_de_Categoria": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "orden": {
+      "type": "integer"
+    }
+  }
+}

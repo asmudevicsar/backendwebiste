@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "banners_internoss",
+  "info": {
+    "singularName": "banners-internos",
+    "pluralName": "banners-internoss",
+    "displayName": "Banners Internos",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Titulo": {
+      "type": "string",
+      "required": true
+    },
+    "Descripcion": {
+      "type": "text"
+    },
+    "Imagen_de_fondo": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Pagina": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::pagina.pagina"
+    }
+  }
+}
