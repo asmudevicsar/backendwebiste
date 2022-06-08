@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "socioss",
+  "info": {
+    "singularName": "socios",
+    "pluralName": "socioss",
+    "displayName": "Afiliaciones",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Imagen": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

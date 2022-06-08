@@ -37,17 +37,6 @@
     "Numero_Celular_Para_Contacto": {
       "type": "string",
       "required": true
-    },
-    "Logo_en_Celular": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
-      "type": "media",
-      "multiple": false,
-      "required": true
     }
   }
 }

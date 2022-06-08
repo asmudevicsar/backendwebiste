@@ -26,6 +26,13 @@
     },
     "orden": {
       "type": "integer"
+    },
+    "Descripcion": {
+      "type": "text"
+    },
+    "Enlace": {
+      "type": "string",
+      "required": true
     }
   }
 }

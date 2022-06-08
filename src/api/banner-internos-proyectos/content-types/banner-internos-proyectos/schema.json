@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "banner_internos_proyectoss",
+  "info": {
+    "singularName": "banner-internos-proyectos",
+    "pluralName": "banner-internos-proyectoss",
+    "displayName": "Banners Internos de Proyectos",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Titulo": {
+      "type": "string",
+      "required": true
+    },
+    "Descripcion": {
+      "type": "text"
+    },
+    "Categorias_de_proyectos": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::categoria-de-proyecto.categoria-de-proyecto"
+    },
+    "Imagen_de_fondo": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}
