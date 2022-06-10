@@ -1,7 +1,6 @@
 {
   "name": "backend",
   "private": true,
-  
   "version": "0.1.0",
   "description": "A Strapi application",
   "scripts": {
@@ -18,7 +17,6 @@
     "@strapi/strapi": "4.1.12",
     "html-react-parser": "^1.4.14",
     "mysql": "2.18.1",
-    "pg": "^8.7.3",
     "strapi-plugin-navigation": "^2.0.13"
   },
   "author": {
@@ -28,8 +26,8 @@
     "uuid": "f00ec1be-1c21-4dcd-bafd-9679762adba5"
   },
   "engines": {
-    "node": "16.x",
-    "npm": "6.x"
+    "node": ">=12.x.x <=16.x.x",
+    "npm": ">=6.0.0"
   },
   "license": "MIT"
 }
