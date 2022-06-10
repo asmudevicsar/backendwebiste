@@ -1,6 +1,7 @@
 {
   "name": "backend",
   "private": true,
+  
   "version": "0.1.0",
   "description": "A Strapi application",
   "scripts": {
@@ -27,8 +28,8 @@
     "uuid": "f00ec1be-1c21-4dcd-bafd-9679762adba5"
   },
   "engines": {
-    "node": ">=12.x.x <=16.x.x",
-    "npm": ">=6.0.0"
+    "node": "16.x",
+    "npm": "6.x"
   },
   "license": "MIT"
 }
