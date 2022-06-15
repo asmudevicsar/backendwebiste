@@ -12,6 +12,7 @@
   "dependencies": {
     "@_sh/strapi-plugin-ckeditor": "^1.1.0",
     "@ckeditor/ckeditor5-media-embed": "^34.1.0",
+    "@hellospruce/strapi-custom-ckeditor5": "^1.1.1",
     "@strapi/plugin-i18n": "4.1.12",
     "@strapi/plugin-users-permissions": "4.1.12",
     "@strapi/strapi": "4.1.12",

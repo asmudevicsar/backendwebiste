@@ -27,9 +27,6 @@
     "Vision": {
       "type": "text"
     },
-    "Objetivos": {
-      "type": "richtext"
-    },
     "Titulo_QuienesSomos_Pagina_Principal": {
       "type": "string"
     },
@@ -118,27 +115,29 @@
       "type": "string"
     },
     "Imagen_Identidad_Corporativa": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "Identidad_Organizativa_Titulo": {
       "type": "string"
     },
     "Identidad_Organizativa_Imagen": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     }
   }
 }

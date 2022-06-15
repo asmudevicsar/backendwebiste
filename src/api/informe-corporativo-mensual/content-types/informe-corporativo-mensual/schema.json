@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "informe_corporativo_mensuals",
+  "info": {
+    "singularName": "informe-corporativo-mensual",
+    "pluralName": "informe-corporativo-mensuals",
+    "displayName": "Informe Corporativo Mensual"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Titulo": {
+      "type": "string",
+      "required": true
+    },
+    "Archivo": {
+      "allowedTypes": [
+        "files",
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}
